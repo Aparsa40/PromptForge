@@ -1,0 +1,44 @@
+/* ThemeToggle.module.css */
+.toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  width: 54px;
+  height: 28px;
+  background: var(--toggle-bg);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  transition: background var(--transition-normal);
+  position: relative;
+  border: 1px solid var(--border-color);
+}
+
+.thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--toggle-thumb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  transition: transform var(--transition-normal);
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  transform: translateX(0);
+}
+
+.dark .thumb {
+  transform: translateX(-26px);
+}
+
+[dir="rtl"] .dark .thumb {
+  transform: translateX(26px);
+}

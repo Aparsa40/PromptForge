@@ -1,0 +1,40 @@
+# Node
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+backend/coverage/
+frontend/coverage/
+
+# Environment
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Build
+dist/
+build/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# SQLite
+*.sqlite
+*.db
+
+# Misc
+.cache
