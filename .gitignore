@@ -38,3 +38,8 @@ Thumbs.db
 
 # Misc
 .cache
+
+# WIN
+[Dd]esktop.ini
+Thumbs.db
+desktop.ini
