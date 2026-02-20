@@ -1,45 +1,116 @@
-# Node
+# ========================
+# Node / JavaScript / TypeScript
+# ========================
 node_modules/
 backend/node_modules/
 frontend/node_modules/
-
-# Logs
-logs
-*.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+dist/
+build/
+frontend/dist/
+out/
+tmp/
 
-# Coverage
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ========================
+# Test Coverage
+# ========================
 coverage/
 backend/coverage/
 frontend/coverage/
+*.lcov
+*.nyc_output/
 
-# Environment
+# ========================
+# Environment / Secrets
+# ========================
 .env
 .env.*
 backend/.env
 frontend/.env
+*.secret
+*.key
 
-# Build
-dist/
-build/
-frontend/dist/
-
-# OS
+# ========================
+# OS / System files
+# ========================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+Icon?
 
-# IDE
+# ========================
+# IDE / Editor
+# ========================
 .vscode/
 .idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
 
-# SQLite
+# ========================
+# Database / Storage
+# ========================
 *.sqlite
 *.db
+*.sql
+*.dump
 
-# Misc
-.cache
+# ========================
+# Build / Compiled files
+# ========================
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.obj
+*.pyc
+*.pyo
+*.pyd
+*.jar
+*.war
+*.egg
+*.lock
 
-# WIN
-[Dd]esktop.ini
-Thumbs.db
-desktop.ini
+# ========================
+# Archives / Backup / Temp
+# ========================
+*.tgz
+*.zip
+*.rar
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+.cache/
+
+# ========================
+# Misc / Agent / Executables
+# ========================
+agent/
+*.out
+*.log
+*.pid
+*.seed
